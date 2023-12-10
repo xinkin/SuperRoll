@@ -48,9 +48,10 @@ export default function Token() {
   return (
     <>
       <Button
-        leftIcon={
-          selectedItem ? <img src={selectedURI} width="20" height="20" /> : null
-        }
+        // leftIcon={
+        //   // eslint-disable-next-line @next/next/no-img-element
+        //   selectedItem ? <img src={selectedURI} width="20" height="20" /> : null
+        // }
         colorScheme="whiteAlpha"
         onClick={() => setIsOpen(true)}
       >
