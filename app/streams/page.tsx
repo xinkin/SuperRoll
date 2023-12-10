@@ -16,7 +16,7 @@ const SendStreams = () => {
   const [amount, setAmount] = useState<number>(0);
   const [chain, setChain] = useState<string>("");
   console.log(amount);
-  const chainOptions = ["Arbritum", "Optimism", "Mantal", "Base"];
+  const chainOptions = ["Arbritum", "Optimism", "Mantle", "Base"];
   const chainOptionsMap = chainOptions.map((chain, index) => {
     return (
       <MenuItem bg={"#18181B"} key={index} onClick={() => handleSelect(chain)}>
