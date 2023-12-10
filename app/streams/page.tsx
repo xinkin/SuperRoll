@@ -68,7 +68,7 @@ const SendStreams = () => {
                     size="lg"
                     placeholder="0.0"
                     value={amount}
-                    onChange={(e) => setAmount(e.target.value)}
+                    onChange={(e) => setAmount(parseInt(e.target.value))}
                   />
                 </div>
                 <div className="mt-1">

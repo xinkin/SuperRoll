@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import SendStreams from "./components/SendStreams";
+import SendStreams from "./streams/page";
 export default function Home() {
   return (
     <main className="bg-black h-screen overflow-auto">

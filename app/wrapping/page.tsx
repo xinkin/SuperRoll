@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import { Input, Wrap } from "@chakra-ui/react";
+import { Input } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { ChevronDownIcon, CheckIcon } from "@chakra-ui/icons";
